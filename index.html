@@ -18298,28 +18298,27 @@ Error generating stack: ` + n.message + `
                                                         function(
                                                             nt
                                                             ) {
-                                                                return T(
-                                                                    nt,
-                                                                    f
-                                                                    .uint8array ?
-                                                                    new Uint8Array(
-                                                                        nt
-                                                                        .length
-                                                                        ) :
-                                                                    new Array(
-                                                                        nt
-                                                                        .length
-                                                                        )
+                                                            return T(
+                                                                nt,
+                                                                f
+                                                                .uint8array ?
+                                                                new Uint8Array(
+                                                                    nt
+                                                                    .length
+                                                                    ) :
+                                                                new Array(
+                                                                    nt
+                                                                    .length
                                                                     )
-                                                            }
-                                                            )(H)
-                                                    ) : H)
-                                            ) : o.Promise.reject(
-                                                new Error(
-                                                    "Can't read the data of '" +
-                                                    g +
-                                                    "'. Is it in a supported JavaScript type (String, Blob, ArrayBuffer, etc) ?"
-                                                    ))
+                                                                )
+                                                        }
+                                                    )(H)
+                                                )), H) : o.Promise.reject(
+                                            new Error(
+                                                "Can't read the data of '" +
+                                                g +
+                                                "'. Is it in a supported JavaScript type (String, Blob, ArrayBuffer, etc) ?"
+                                                ))
                                     })
                             }
                         }, {
