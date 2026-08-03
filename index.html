@@ -21331,8 +21331,7 @@ Error generating stack: ` + n.message + `
                                                     8), ht +=
                                                     k & (1 <<
                                                         $) -
-                                                    1, k >>>
-                                                    = $, M -=
+                                                    1, k >>>= $, M -=
                                                 $), M < 15 &&
                                                 (k += c[o++] <<
                                                     M, M += 8,
@@ -21342,9 +21341,7 @@ Error generating stack: ` + n.message + `
                                                 ot = L[k &
                                                 V];
                                             a: for (;;) {
-                                                if (k >>>= $ =
-                                                    ot >>>
-                                                    24, M -=
+                                                if (k >>>= $, M -=
                                                     $, !(16 & (
                                                         $ = ot >>
                                                         16 &
