@@ -23957,7 +23957,7 @@ Error generating stack: ` + n.message + `
                                     1), 2 <= j
                                     .heap_len;);
                                 j.heap[--j.heap_max] = j
-                                    .heap[1], (function(
+                                    .heap[1]; (function(
                                     kt, Ne) {
                                     var wa, He, Ia, It,
                                         fe, Le, ee =
@@ -24066,7 +24066,8 @@ Error generating stack: ` + n.message + `
                                                         ] +
                                                     fe
                                                     )
-                                                ),
+                                                )
+                                            ;})(
                                             kt, Ne);
                                     if (qe !==
                                         0) {
